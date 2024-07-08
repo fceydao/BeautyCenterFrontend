@@ -1,0 +1,90 @@
+
+/* Filtre kutularının hizalanması */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+  margin-top: 40px; /* Üst boşluk arttırıldı */
+}
+
+.col-md-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.card {
+  width: 100%;
+}
+
+/* Alt kategorilerin ve fiyat aralığının hizalanması */
+.mb-4.border {
+  width: 100%;
+  margin-right: 10px;
+  margin-top: 20px; /* Alt boşluk ekleyerek aşağı alındı */
+}
+
+.carousel-item img,
+.carousel-item video {
+  object-fit: cover;
+  height: 865px; /* Orijinal boyuta döndürmek için */
+  width: 100%; /* Genişliği yüzde olarak ayarlayarak responsive olmasını sağlayabilirsiniz */
+}
+
+.carousel-container {
+  margin-bottom: 0; /* Carousel altındaki boşluğu kaldırmak için */
+}
+
+.comment-carousel-container {
+  margin-top: -5px; /* CommentCarousel bileşenini daha yukarı yaklaştırmak için negatif margin kullanabilirsiniz */
+}
+
+/* Header section styling */
+.header-section {
+  position: relative;
+  width: 100%;
+  height: 500px; /* Adjust the height as needed */
+}
+
+.header-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header-content {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  text-align: right;
+  color: white;
+}
+
+.header-content h1 {
+  font-size: 3em; /* Example font, you can choose another */
+}
+
+/* Apply grey color to all buttons and make them squared */
+button, .btn {
+  background-color: grey !important;
+  border: none !important;
+  color: white !important;
+  border-radius: 0px !important; /* Make buttons completely squared */
+}
+
+/* Ensure hover and focus states are consistent */
+button:hover, .btn:hover,
+button:focus, .btn:focus {
+  background-color: darkgrey !important;
+  color: white !important;
+  border-radius: 0px !important; /* Maintain squared corners on hover and focus */
+}
+
+.option-italic {
+  font-style: italic;
+}

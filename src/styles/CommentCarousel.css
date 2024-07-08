@@ -1,0 +1,21 @@
+.comment-carousel .carousel-item-custom {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .comment-carousel .carousel-control-prev,
+  .comment-carousel .carousel-control-next {
+    filter: invert(100%); /* Okları görünür yapmak için */
+  }
+  
+  .comment {
+    font-style: italic;
+    font-size: 1.2em;
+  }
+  
+  .comment h6 {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  

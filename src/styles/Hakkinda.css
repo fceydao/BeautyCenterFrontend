@@ -1,0 +1,65 @@
+.hakkinda-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.hakkinda-title {
+    font-size: 30px; /* Boyutu büyüttük */
+    font-family: 'Times New Roman', Times, serif; /* Fontu değiştirdik */
+    margin-bottom: 40px;
+    line-height: 1.2; /* Satır yüksekliği eklendi */
+    margin-top: 60px; /* Üstten daha fazla boşluk ekledik */
+}
+
+.hakkinda-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Üst sınırda hizalamak için */
+    flex-direction: row; /* İki elemanı yan yana yerleştirmek için */
+    margin-top: 60px; /* Üstteki yazıyla fotoğraf arasındaki boşluğu artırmak için */
+}
+
+.image-block {
+    position: relative;
+}
+
+.hakkinda-image {
+    width: 700px; /* Genişliği büyüttük */
+    height: auto;
+    margin-right: 80px; /* Yanındaki yazı ile arayı açtık */
+    margin-left: 60px; /* Soldan daha fazla boşluk ekledik */
+    margin-bottom: 60px; /* Fotoğrafın altına daha fazla boşluk bırakmak için */
+}
+
+.partner-block {
+    position: absolute;
+    top: 400px; /* Blok pozisyonunu aşağıya indirdik */
+    left: 65%; /* Fotoğrafın sağ tarafına hizalama */
+    background-color: #FBE9E7; /* Rengi ayarladık */
+    padding: 30px; /* Padding'i artırdık */
+    border-radius: 0px; /* Köşeleri yuvarladık */
+    text-align: left; /* Yazıyı sola hizaladık */
+    width: 800px; /* Blok genişliğini artırdık */
+    height: 300px; /* Blok yüksekliğini ayarladık */
+}
+
+.partner-text {
+    font-size: 25px; /* Yazı boyutunu ayarladık */
+    font-family: 'Times New Roman', Times, serif; /* Yazı tipini ayarladık */
+}
+
+.partner-author {
+    font-size: 18px; /* Yazı boyutunu ayarladık */
+    font-family: 'Times New Roman', Times, serif; /* Yazı tipini ayarladık */
+    font-style: italic; /* Yazı stilini italik yaptık */
+    margin-top: 10px; /* Üstten boşluk ekledik */
+}
+
+.hakkinda-text {
+    font-size: 20px; /* Boyutu büyüttük */
+    width: 500px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif; /* Fontu değiştirdik */
+    margin-top: 60px; /* Yazıyı fotoğrafın altına hizalamak için */
+    margin-right: 60px; /* Sağdan daha fazla boşluk ekledik */
+}
